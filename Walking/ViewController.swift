@@ -12,7 +12,7 @@ import MapboxCommon
 
  
 class ViewController: UIViewController {
- 
+    
     @IBOutlet weak var Controls: UIView!
     internal var mapView: MapView!
     internal var cameraLocationConsumer: CameraLocationConsumer!
@@ -20,6 +20,8 @@ class ViewController: UIViewController {
  
     override public func viewDidLoad() {
         super.viewDidLoad()
+        
+        let url : String?
  
         let myResourceOptions = ResourceOptions(accessToken: "pk.eyJ1Ijoib25kYW5kZSIsImEiOiJja29nNzg0ZnkwdGJnMm90cm10eDZyNHNsIn0.YyirnZeCZd1Dn5F08uVjbw")
         // Create a URL for a custom style created in Mapbox Studio.
