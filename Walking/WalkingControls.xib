@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WalkingControls" customModule="Walking" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1FH-1r-3y0">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <viewLayoutGuide key="safeArea" id="PXZ-zQ-B6y"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <point key="canvasLocation" x="-74" y="-35"/>
+        </view>
+        <view contentMode="scaleToFill" id="i72-wg-Km8">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6T-aS-PEX">
+                    <rect key="frame" x="20" y="787" width="258" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="CoF-yr-a7m"/>
+                        <constraint firstAttribute="height" constant="56" id="DXe-sm-csT"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="258" id="DnI-em-mso"/>
+                        <constraint firstAttribute="width" constant="258" id="M6T-1J-1PR"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="walk_scan"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDk-FC-E1B">
+                    <rect key="frame" x="338" y="787" width="56" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="33c-Zg-RyT"/>
+                        <constraint firstAttribute="height" constant="56" id="80z-6f-zsf"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="walk_back"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="aoX-11-a9a"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="aoX-11-a9a" firstAttribute="bottom" secondItem="W6T-aS-PEX" secondAttribute="bottom" constant="19" id="CUN-ND-98x"/>
+                <constraint firstItem="GDk-FC-E1B" firstAttribute="leading" secondItem="W6T-aS-PEX" secondAttribute="trailing" constant="60" id="GkI-j7-SYe"/>
+                <constraint firstItem="GDk-FC-E1B" firstAttribute="top" secondItem="aoX-11-a9a" secondAttribute="top" constant="743" id="c8V-wN-hfp"/>
+                <constraint firstItem="aoX-11-a9a" firstAttribute="bottom" secondItem="GDk-FC-E1B" secondAttribute="bottom" constant="19" id="gNg-La-AwK"/>
+                <constraint firstItem="W6T-aS-PEX" firstAttribute="top" secondItem="aoX-11-a9a" secondAttribute="top" constant="743" id="lSc-MQ-t3h"/>
+                <constraint firstItem="W6T-aS-PEX" firstAttribute="leading" secondItem="aoX-11-a9a" secondAttribute="leading" constant="20" id="nrJ-jf-Qdj"/>
+                <constraint firstItem="aoX-11-a9a" firstAttribute="trailing" secondItem="GDk-FC-E1B" secondAttribute="trailing" constant="20" id="rKP-Wr-Odo"/>
+                <constraint firstItem="GDk-FC-E1B" firstAttribute="leading" secondItem="W6T-aS-PEX" secondAttribute="trailing" constant="60" id="sgn-g6-hOn"/>
+            </constraints>
+            <point key="canvasLocation" x="-737.68115942028987" y="206.91964285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="walk_back" width="56" height="56"/>
+        <image name="walk_scan" width="259" height="56"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

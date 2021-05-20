@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91254ED26565E9C000AE737 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91254EC26565E9C000AE737 /* Menu.swift */; };
+		C91254EF26565EAA000AE737 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91254EE26565EAA000AE737 /* Settings.swift */; };
+		C91254F126565EBE000AE737 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91254F026565EBE000AE737 /* Profile.swift */; };
+		C91254F326565ED6000AE737 /* Awards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91254F226565ED6000AE737 /* Awards.swift */; };
+		C91254F526565EE8000AE737 /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91254F426565EE8000AE737 /* Top.swift */; };
+		C91254F726565EF8000AE737 /* Walking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91254F626565EF8000AE737 /* Walking.swift */; };
+		C91254F926565F09000AE737 /* Competitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91254F826565F09000AE737 /* Competitive.swift */; };
+		C91254FB26565F1C000AE737 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91254FA26565F1C000AE737 /* Requests.swift */; };
+		C91254FE26566A99000AE737 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C91254FD26566A99000AE737 /* Alamofire */; };
 		C982EBBE264D8DE10098F1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982EBBD264D8DE10098F1A1 /* AppDelegate.swift */; };
 		C982EBC0264D8DE10098F1A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982EBBF264D8DE10098F1A1 /* SceneDelegate.swift */; };
 		C982EBC2264D8DE10098F1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982EBC1264D8DE10098F1A1 /* ViewController.swift */; };
@@ -16,6 +25,9 @@
 		C982EBCD264D8DE30098F1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C982EBCB264D8DE30098F1A1 /* LaunchScreen.storyboard */; };
 		C982EBD8264D8DE30098F1A1 /* WalkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982EBD7264D8DE30098F1A1 /* WalkingTests.swift */; };
 		C982EBE3264D8DE30098F1A1 /* WalkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982EBE2264D8DE30098F1A1 /* WalkingUITests.swift */; };
+		C982EBF5264D97EC0098F1A1 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = C982EBF4264D97EC0098F1A1 /* MapboxMaps */; };
+		C982EBFB2651C5B40098F1A1 /* WalkingControls.xib in Resources */ = {isa = PBXBuildFile; fileRef = C982EBFA2651C5B30098F1A1 /* WalkingControls.xib */; };
+		C982EBFD2651C5D30098F1A1 /* WalkingControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982EBFC2651C5D30098F1A1 /* WalkingControls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91254EC26565E9C000AE737 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C91254EE26565EAA000AE737 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C91254F026565EBE000AE737 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C91254F226565ED6000AE737 /* Awards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awards.swift; sourceTree = "<group>"; };
+		C91254F426565EE8000AE737 /* Top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top.swift; sourceTree = "<group>"; };
+		C91254F626565EF8000AE737 /* Walking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walking.swift; sourceTree = "<group>"; };
+		C91254F826565F09000AE737 /* Competitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Competitive.swift; sourceTree = "<group>"; };
+		C91254FA26565F1C000AE737 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
 		C982EBBA264D8DE10098F1A1 /* Walking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C982EBBD264D8DE10098F1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C982EBBF264D8DE10098F1A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +71,8 @@
 		C982EBDE264D8DE30098F1A1 /* WalkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C982EBE2264D8DE30098F1A1 /* WalkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingUITests.swift; sourceTree = "<group>"; };
 		C982EBE4264D8DE30098F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C982EBFA2651C5B30098F1A1 /* WalkingControls.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkingControls.xib; sourceTree = "<group>"; };
+		C982EBFC2651C5D30098F1A1 /* WalkingControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingControls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C982EBF5264D97EC0098F1A1 /* MapboxMaps in Frameworks */,
+				C91254FE26566A99000AE737 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +125,7 @@
 		C982EBBC264D8DE10098F1A1 /* Walking */ = {
 			isa = PBXGroup;
 			children = (
+				C91254EE26565EAA000AE737 /* Settings.swift */,
 				C982EBBD264D8DE10098F1A1 /* AppDelegate.swift */,
 				C982EBBF264D8DE10098F1A1 /* SceneDelegate.swift */,
 				C982EBC1264D8DE10098F1A1 /* ViewController.swift */,
@@ -109,6 +134,15 @@
 				C982EBCB264D8DE30098F1A1 /* LaunchScreen.storyboard */,
 				C982EBCE264D8DE30098F1A1 /* Info.plist */,
 				C982EBC6264D8DE10098F1A1 /* Walking.xcdatamodeld */,
+				C982EBFA2651C5B30098F1A1 /* WalkingControls.xib */,
+				C982EBFC2651C5D30098F1A1 /* WalkingControls.swift */,
+				C91254EC26565E9C000AE737 /* Menu.swift */,
+				C91254F026565EBE000AE737 /* Profile.swift */,
+				C91254F226565ED6000AE737 /* Awards.swift */,
+				C91254F426565EE8000AE737 /* Top.swift */,
+				C91254F626565EF8000AE737 /* Walking.swift */,
+				C91254F826565F09000AE737 /* Competitive.swift */,
+				C91254FA26565F1C000AE737 /* Requests.swift */,
 			);
 			path = Walking;
 			sourceTree = "<group>";
@@ -147,6 +181,10 @@
 			dependencies = (
 			);
 			name = Walking;
+			packageProductDependencies = (
+				C982EBF4264D97EC0098F1A1 /* MapboxMaps */,
+				C91254FD26566A99000AE737 /* Alamofire */,
+			);
 			productName = Walking;
 			productReference = C982EBBA264D8DE10098F1A1 /* Walking.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +256,10 @@
 				Base,
 			);
 			mainGroup = C982EBB1264D8DE00098F1A1;
+			packageReferences = (
+				C982EBF3264D97EB0098F1A1 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				C91254FC26566A99000AE737 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C982EBBB264D8DE10098F1A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C982EBCD264D8DE30098F1A1 /* LaunchScreen.storyboard in Resources */,
+				C982EBFB2651C5B40098F1A1 /* WalkingControls.xib in Resources */,
 				C982EBCA264D8DE30098F1A1 /* Assets.xcassets in Resources */,
 				C982EBC5264D8DE10098F1A1 /* Main.storyboard in Resources */,
 			);
@@ -261,8 +304,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91254ED26565E9C000AE737 /* Menu.swift in Sources */,
+				C91254F926565F09000AE737 /* Competitive.swift in Sources */,
+				C91254F326565ED6000AE737 /* Awards.swift in Sources */,
+				C91254F126565EBE000AE737 /* Profile.swift in Sources */,
+				C91254FB26565F1C000AE737 /* Requests.swift in Sources */,
 				C982EBC2264D8DE10098F1A1 /* ViewController.swift in Sources */,
+				C91254F726565EF8000AE737 /* Walking.swift in Sources */,
 				C982EBC8264D8DE10098F1A1 /* Walking.xcdatamodeld in Sources */,
+				C982EBFD2651C5D30098F1A1 /* WalkingControls.swift in Sources */,
+				C91254EF26565EAA000AE737 /* Settings.swift in Sources */,
+				C91254F526565EE8000AE737 /* Top.swift in Sources */,
 				C982EBBE264D8DE10098F1A1 /* AppDelegate.swift in Sources */,
 				C982EBC0264D8DE10098F1A1 /* SceneDelegate.swift in Sources */,
 			);
@@ -597,6 +649,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C91254FC26566A99000AE737 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		C982EBF3264D97EB0098F1A1 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = "10.0.0-beta.15";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C91254FD26566A99000AE737 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C91254FC26566A99000AE737 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C982EBF4264D97EC0098F1A1 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C982EBF3264D97EB0098F1A1 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C982EBC6264D8DE10098F1A1 /* Walking.xcdatamodeld */ = {
